@@ -1,0 +1,12 @@
+{
+  "name": "Ruby Development",
+  "dockerFile": "Dockerfile",
+  "settings": { 
+      "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+      "rebornix.ruby",
+      "castwide.solargraph",
+      "kaiwood.endwise"
+  ]
+}
