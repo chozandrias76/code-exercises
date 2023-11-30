@@ -1,12 +1,19 @@
 {
   "name": "Ruby Development",
-  "dockerFile": "Dockerfile",
+  "dockerFile": "../Dockerfile",
+  // "dockerComposeFile": "../docker-compose.yml",
   "settings": { 
       "terminal.integrated.shell.linux": "/bin/bash"
   },
+  // "workspaceFolder": "/app",
+  // "shutdownAction": "stopCompose",
   "extensions": [
-      "rebornix.ruby",
-      "castwide.solargraph",
-      "kaiwood.endwise"
-  ]
+	"rebornix.ruby",
+	"castwide.solargraph",
+	"kaiwood.endwise",
+	"shd101wyy.markdown-preview-enhanced",
+	"ms-azuretools.vscode-docker",
+	"Shopify.ruby-lsp",
+	"GitHub.copilot"
+]
 }
